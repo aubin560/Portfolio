@@ -1,0 +1,171 @@
+body{
+    background:   rgb(22, 94, 153)
+}
+#nav{
+    
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin-left: -8px ;
+    margin-top: -8px;
+    
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px; 
+    
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+.nav-title{
+    margin-left: 10px;
+}
+.image{
+    width: 50%;
+    height:70%;
+}
+.welcome-section{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(221, 219, 219);
+    margin-left: -8px;
+    margin-right: -8px;
+    
+    
+}
+.presentation{
+    flex-basis: 200px;
+    margin-top: 50px;
+}
+.b-space{
+    flex-basis: 50px;
+    margin-top: 50px;
+}
+.image{
+    flex-basis: 100px;
+    margin-top: 50px;
+}
+
+
+/* Project section */
+
+.projects-section{
+    background:   rgb(22, 94, 153);
+}
+.projects-content{
+   width: 100%;
+   height: 100%;
+   background:   rgb(22, 94, 153);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+} 
+.projects-link{
+    width: 40%;
+    height: 40%;
+    background: rgb(22, 94, 153);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
+}
+.projects-section-header{
+  text-align: center;   
+}
+.container{
+  width: 100%;
+  height: 40%;
+  
+  background: black;
+  margin-bottom: 30px;
+}
+
+.project-image{
+  width: 100%;
+  height: 15rem;
+  
+}
+.project-title{
+   width: 100%;
+   height: 20%;
+   color: white;
+   background: black;
+   text-align: center;
+   
+  }
+  .code {
+    color: black;
+    transition: color 0.3s ease-out;
+  }
+  
+  .projects-link:hover .code {
+    color: #fff;
+  }
+  
+
+.contact-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.c-links{
+    color: white;
+    text-decoration: none;
+    margin-right: 100px;
+    transition-duration: 500ms;
+    
+}
+.c-links:hover{
+    padding: 15px;
+}
+.contact-links{
+    margin: 0 auto;
+}
+.btn {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 10px;
+}
+
+@media (max-width:500px){
+    .c-links{
+        margin-right: 5px;
+        font-size: 10px;
+    } 
+    .project-image{
+        width: 100%;
+        height: 5rem;
+    }
+    .project-title{
+        width: 100%;
+        height: 5px;
+        font-size: 10px;
+    }
+    .nav-link{
+       
+        margin-right: 10px; 
+        
+    }
+}
+
+
+  
